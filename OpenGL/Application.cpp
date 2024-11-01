@@ -176,7 +176,7 @@ int main(void)
         glClear(GL_COLOR_BUFFER_BIT);
 
        
-        CALL(glDrawElements(GL_TRIANGLES, 6, GL_INT, nullptr));
+        CALL(glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr));
       
 
         /* Swap front and back buffers */
