@@ -134,9 +134,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
+    <ClCompile Include="IndexBuffer.cpp" />
+    <ClCompile Include="renderer.cpp" />
+    <ClCompile Include="vertexBuffer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="basic.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IndexBuffer.h" />
+    <ClInclude Include="renderer.h" />
+    <ClInclude Include="vertexBuffer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -27,10 +27,30 @@
     <ClCompile Include="Application.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="vertexBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="basic.shader">
       <Filter>res\shaders</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="renderer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexBuffer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>src</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
